@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "EduardoPadoan 9/14/2018 23:06",
+	"super" : "SequenceableCollection",
+	"category" : "Collections-Backoff",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"start",
+		"stop",
+		"factor"
+	],
+	"name" : "BackoffSequence",
+	"type" : "normal"
+}
