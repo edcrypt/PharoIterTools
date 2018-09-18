@@ -1,3 +1,3 @@
 *Collections-Backoff
-backoffTo: anInteger 
-	^ BackoffSequence from: self to: anInteger 
+backoffTo: stopFloat 
+	^ BackoffSequence from: self to: stopFloat 

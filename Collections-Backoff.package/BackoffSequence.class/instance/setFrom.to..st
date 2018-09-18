@@ -1,3 +1,3 @@
 initialization
 setFrom: startFloat to: stopFloat
-	self setFrom: startFloat to: stopFloat withFactor: 2
+	self setFrom: startFloat to: stopFloat withFactor: self defaultFactor
