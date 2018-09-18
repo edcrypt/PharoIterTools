@@ -1,5 +1,3 @@
 initialization
-setFrom: startInteger to: stopInteger
-	start := startInteger.
-	stop := stopInteger.
-	factor := 2
+setFrom: startFloat to: stopFloat
+	self setFrom: startFloat to: stopFloat withFactor: 2

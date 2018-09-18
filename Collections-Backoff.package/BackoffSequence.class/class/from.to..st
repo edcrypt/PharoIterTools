@@ -1,4 +1,4 @@
 instance creation
-from: startInteger to: stopInteger
+from: startFloat to: stopFloat
 	^ self new
-		setFrom: startInteger to: stopInteger 
+		setFrom: startFloat to: stopFloat 
