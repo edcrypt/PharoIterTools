@@ -5,23 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"factor",
-		"empty",
-		"one",
-		"nonEmpty",
-		"subCollectionInNonEmpty",
-		"nonEmpty1Element",
-		"anotherCollection",
-		"collectionWithoutNil",
-		"collectResult",
-		"elementIn",
-		"elementNotIn",
-		"subCollectionNotIn",
-		"collectionOfFloat",
-		"subCollection",
-		"collectionWithSubCollection"
-	],
+	"instvars" : [ ],
 	"name" : "BackoffSequenceTest",
 	"type" : "normal"
 }

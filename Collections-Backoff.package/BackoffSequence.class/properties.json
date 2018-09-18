@@ -8,7 +8,8 @@
 	"instvars" : [
 		"start",
 		"stop",
-		"factor"
+		"factor",
+		"jitterBaseRandomSeed"
 	],
 	"name" : "BackoffSequence",
 	"type" : "normal"

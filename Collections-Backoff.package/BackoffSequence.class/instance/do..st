@@ -6,7 +6,7 @@ do: aBlock
 	size := self size.
 	[ index < size ]
 		whileTrue: [ aValue := currentValue.
-			aBlock value: aValue.
+			aBlock value: aValue + (self jitterAt: index).
 			index := index + 1.
 			currentValue := currentValue = 0
 				ifTrue: [ 1 ]
