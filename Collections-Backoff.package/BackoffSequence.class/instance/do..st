@@ -5,8 +5,8 @@ do: aBlock
 	currentValue := start.
 	size := self size.
 	[ index < size ]
-		whileTrue: [ aValue := currentValue.
-			aBlock value: aValue + self jitter.
+		whileTrue: [ aValue := currentValue - (currentValue * self jitter).
+			aBlock value: aValue.
 			index := index + 1.
 			currentValue := currentValue = 0
 				ifTrue: [ 1 ]
