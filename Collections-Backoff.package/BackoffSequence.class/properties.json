@@ -9,7 +9,7 @@
 		"start",
 		"stop",
 		"factor",
-		"jitterBaseRandomSeed"
+		"jitterRandomGenerator"
 	],
 	"name" : "BackoffSequence",
 	"type" : "normal"
