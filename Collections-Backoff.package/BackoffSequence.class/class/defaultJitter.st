@@ -1,3 +1,3 @@
-as yet unclassified
+defaults
 defaultJitter
 	^ 1.0
