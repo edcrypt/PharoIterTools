@@ -9,6 +9,7 @@
 		"start",
 		"stop",
 		"factor",
+		"jitter",
 		"jitterRandomGenerator"
 	],
 	"name" : "BackoffSequence",

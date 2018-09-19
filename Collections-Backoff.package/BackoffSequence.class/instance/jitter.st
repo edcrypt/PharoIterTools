@@ -1,3 +1,3 @@
 as yet unclassified
 jitter
-	^ jitterRandomGenerator ifNil: [ 0 ] ifNotNil: [ jitterRandomGenerator next ]
+	^ jitter ifNil: [ 0 ] ifNotNil: [ jitter * jitterRandomGenerator next ]
